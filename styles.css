@@ -1,0 +1,121 @@
+.logo{
+    font-size: 32px;
+}
+
+.background-nav, .background-footer{
+    background-color: #a09c94 !important;
+}
+
+.background-main{
+
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.font-playfar{
+    font-family: 'Playfair Display', serif;
+}
+
+.font-dancing{
+    font-family: 'Dancing Script', cursive;
+}
+
+.font-muli{
+    font-family: 'Muli', sans-serif;
+}
+
+.text-black, a, a:hover{
+    color: #292929;
+}
+
+.text-gold{
+    color: #c39f76;
+}
+
+.text-white{
+    color: #fff;
+}
+
+@media(min-width: 1300px){
+    #restaurant-img{
+        margin-top: -500px;
+    }
+
+    #delivery-img{
+        margin-top: -200px;
+    }
+
+    #pizza-img{
+        margin-top: -300px;
+    }
+}
+
+.carousel-item{
+    height: 450px;
+}
+
+.carousel-title{
+    font-size: 78px;
+}
+
+.carousel-subtitle{
+    font-size: 22px;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    z-index: 11;
+}
+
+.favorites-title{
+    font-size: 56px;
+    text-align: center;
+}
+
+.card{
+    margin: 0 5px 5px 5px;
+}
+
+.card-title{
+    font-size: 36px;
+}
+
+.card-img-top{
+    min-height: 200px;
+    object-fit: cover;
+    max-height: 200px;
+}
+
+.card-body{
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+}
+
+.favorites-row{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    padding-top: 5px;
+    background-color: #a09c94;
+    margin-top: 40px;
+}
+
+.undertitle-line{
+    width: 60px;
+}
