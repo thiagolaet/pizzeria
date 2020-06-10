@@ -1,73 +1,204 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <!-- css -->
-        <link href="styles.css" rel="stylesheet">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <!-- fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Muli:wght@500&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">     
-        
-        <title>Pizzas - Menu</title>
-    </head>
-    <body class="text-black">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-5 pr-5 font-muli background-nav">
-            <a class="navbar-brand logo font-playfar" href="index.html">Pizzas</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+  <link href="styles.css" rel="stylesheet">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto font-muli">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">about</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="menu.html">menu <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Muli:wght@500&family=Playfair+Display:wght@500;700&display=swap"
+    rel="stylesheet">
+
+  <meta charset="utf-8" />
+  <title>Pizzeria - Menu</title>
+</head>
+
+<body class="text-black">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-5 pr-5 font-muli background-nav">
+    <a class="navbar-brand logo font-playfar" href="index.html">Pizzeria</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto font-muli">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="menu.html">menu <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container mt-4 font-muli d-flex flex-column">
+
+    <h1 class="font-dancing text-center">Pizzas</h1>
+
+    <div class="row mt-3 justify-content-center">
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/pepperoni.jpg" class="card-img-top" alt="Picture of a pepperoni pizza">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Pepperoni</h5>
+          <p class="card-text font-muli">The everyone favorite pizza even better with our special touch.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/cheese.jpg" class="card-img-top" alt="Picture of a cheese pizza">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Cheese</h5>
+          <p class="card-text font-muli">The most basic pizza made in a way you never imagined that could be done.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/mushroom.jpg" class="card-img-top" alt="Picture of a mushroom pizza">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Mushrooms</h5>
+          <p class="card-text font-muli">The BEST pizza for all cheese and mushroom lovers!</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/bacon.jpg" class="card-img-top" alt="Picture of a mushroom pizza">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Bacon</h5>
+          <p class="card-text font-muli">Simple but still incredible in it's own very special way!</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/onions.jpg" class="card-img-top" alt="Picture of a mushroom pizza">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Onions</h5>
+          <p class="card-text font-muli">Will make you cry of happiness in the first bite!</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/sausage.png" class="card-img-top" alt="Picture of a sausage pizza">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Sausage</h5>
+          <p class="card-text font-muli">Spicy sausage, onions, mushrooms and plenty of cheese make this pizza one of
+            the better things you can taste in life.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <h1 class="font-dancing text-center mt-5">Other dishes</h1>
+
+    <div class="row mt-3 justify-content-center">
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/pancake.jpg" class="card-img-top" alt="Picture of some pancakes">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Pancake</h5>
+          <p class="card-text font-muli">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/burrito.jpg" class="card-img-top" alt="Picture of some burritos">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Burrito</h5>
+          <p class="card-text font-muli">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/eggs-benedict.jpg" class="card-img-top" alt="Picture of an egg benedict">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Eggs Benedict</h5>
+          <p class="card-text font-muli">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/tacos.jpg" class="card-img-top" alt="Picture of some tacos">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Tacos</h5>
+          <p class="card-text font-muli">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/burger.jpg" class="card-img-top" alt="Picture of a burger">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Burger</h5>
+          <p class="card-text font-muli">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/img/fries.jpg" class="card-img-top" alt="Picture of some fries">
+        <div class="card-body">
+          <h5 class="card-title font-dancing">Fries</h5>
+          <p class="card-text font-muli">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <h5 class="font-muli text-gold text-center mt-3">Our menu is always in update, if you have a suggestion <a
+        href="contact.html">contact us</a></h5>
+
+  </main>
+
+  <footer>
+    <div class="container text-center text-md-left mt-5">
+
+      <div class="row mt-3">
+
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="font-playfar logo">Pizzeria</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto undertitle-line">
+          <p class="font-muli">
+            This was created as a response to the problem "homepage" from Harvard's course CS50.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 font-muli">
+          <h6 class="font-playfar logo">Contact</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><i class="fas fa-home mr-2"></i> Rio de Janeiro, 22210-030, BR</p>
+          <p><i class="fas fa-envelope mr-2"></i> pizza@example.com</p>
+          <p><i class="fas fa-phone mr-2"></i> +55 (21) 1234-5678</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-copyright text-center py-3 font-muli text-white">© 2020 Copyright:
+      <a href="https://github.com/thiagolaet" class="text-white"> Thiago Laet</a>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/571196c8f9.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+</body>
 
 
-        <footer>
-          <div class="container text-center text-md-left mt-5">
-            <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="font-playfar logo">Pizzas</h6>
-                <hr class="mb-4 mt-0 d-inline-block mx-auto undertitle-line">
-                <p class="font-muli">
-                  This was created as a response to the exercise "homepage" from Harvard's course CS50.
-                </p>
-              </div>
-        
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 font-muli">
-                <h6 class="font-playfar logo">Contact</h6>
-                <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p><i class="fas fa-home mr-2"></i> Rio de Janeiro, 22210-030, BR</p>
-                <p><i class="fas fa-envelope mr-2"></i> pizza@example.com</p>
-                <p><i class="fas fa-phone mr-2"></i> +55 (21) 1234-5678</p>
-              </div>
-            </div>
-          </div>
-        
-          <div class="footer-copyright text-center py-3 font-muli text-white">© 2020 Copyright:
-            <a href="https://github.com/thiagolaet" class="text-white"> Thiago Laet</a>
-          </div>
-        </footer>
-
-    </body>
-
-    <script src="https://kit.fontawesome.com/571196c8f9.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </html>
